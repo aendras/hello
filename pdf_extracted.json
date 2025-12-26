@@ -1,0 +1,580 @@
+[
+  [
+    {
+      "type": "header",
+      "bbox": [
+        0.757,
+        0.04,
+        0.94,
+        0.055
+      ],
+      "angle": 0,
+      "content": "ISO 14229-1:2013(E)"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.114,
+        0.098,
+        0.942,
+        0.157
+      ],
+      "angle": 0,
+      "content": "b) Server sends a negative response message (e.g., fMLOIF: incorrectMessageLengthOrIncorrectFormat) because the service identifier and sub-function parameter is supported of the client's request, but some other error appeared (e.g. wrong PDU length according to service identifier and sub-function parameter in the request message) during processing of the sub-function."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.114,
+        0.167,
+        0.943,
+        0.21
+      ],
+      "angle": 0,
+      "content": "c) Server sends a negative response message with the negative response code ROOR (requestOutOfRange) because the service identifier and sub-function parameter are supported but none of the requested data-parameters are supported by the client's request message."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.114,
+        0.222,
+        0.944,
+        0.266
+      ],
+      "angle": 0,
+      "content": "d) Server sends a negative response message with the negative response code SNS (serviceNotSupported) or SNSIAS (serviceNotSupportedInactiveSession) because the service identifier is not supported of the client's request with indication for a response message."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.114,
+        0.278,
+        0.945,
+        0.334
+      ],
+      "angle": 0,
+      "content": "e) Server sends a negative response message with the negative response code SFNS (sub-functionNotSupported) or SFNSIAS (sub-FunctionNotSupportedInactiveSession) because the service identifier is supported and the sub-function parameter is not supported for the data-parameters (if applicable) of the client's request with indication for a response message."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.113,
+        0.346,
+        0.941,
+        0.377
+      ],
+      "angle": 0,
+      "content": "f) Server sends no response message because the service identifier and sub-function parameter is supported of the client's request with indication for no response message."
+    },
+    {
+      "type": "list",
+      "bbox": [
+        0.113,
+        0.098,
+        0.945,
+        0.377
+      ],
+      "angle": 0,
+      "content": null
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.146,
+        0.388,
+        0.941,
+        0.416
+      ],
+      "angle": 0,
+      "content": "NOTE If a negative response code RCRRP (requestCorrectlyReceivedResponsePending) is used, a final response shall be given independent of the suppressPosRspMsgIndicationBit value."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.113,
+        0.427,
+        0.94,
+        0.47
+      ],
+      "angle": 0,
+      "content": "g) Same effect as in b) (i.e., a negative response message is sent) because the suppressPosRspMsgIndicationBit is ignored for any negative response that needs to be sent upon a physically addressed request messages."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.114,
+        0.482,
+        0.94,
+        0.526
+      ],
+      "angle": 0,
+      "content": "h) Same effect as in c) (i.e., the negative response message is sent) because the suppressPosRspMsgIndicationBit is ignored for any negative response that needs to be sent upon receipt of a physically addressed request messages."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.113,
+        0.538,
+        0.94,
+        0.581
+      ],
+      "angle": 0,
+      "content": "i) Same effect as in d) (i.e., the negative response message is sent) because the suppressPosRspMsgIndicationBit is ignored for any negative response that needs to be sent upon a physically addressed request messages."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.112,
+        0.593,
+        0.94,
+        0.636
+      ],
+      "angle": 0,
+      "content": "j) Same effect as in e) (i.e., the negative response message is sent) because the suppressPosRspMsgIndicationBit is ignored for any negative response that needs to be sent upon a physically addressed request messages."
+    },
+    {
+      "type": "list",
+      "bbox": [
+        0.112,
+        0.427,
+        0.94,
+        0.636
+      ],
+      "angle": 0,
+      "content": null
+    },
+    {
+      "type": "title",
+      "bbox": [
+        0.114,
+        0.648,
+        0.582,
+        0.664
+      ],
+      "angle": 0,
+      "content": "7.5.3.3 Functionally addressed client request message"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.112,
+        0.677,
+        0.94,
+        0.718
+      ],
+      "angle": 0,
+      "content": "The server response behaviour specified in this subclause is referenced in the service description of each service, which supports a sub-function parameter in the functionally addressed request message received from the client."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.114,
+        0.731,
+        0.688,
+        0.747
+      ],
+      "angle": 0,
+      "content": "Table 5 shows possible communication schemes with functional addressing."
+    },
+    {
+      "type": "footer",
+      "bbox": [
+        0.314,
+        0.931,
+        0.473,
+        0.943
+      ],
+      "angle": 0,
+      "content": "Licensed to rpb@tinet.org"
+    },
+    {
+      "type": "footer",
+      "bbox": [
+        0.315,
+        0.943,
+        0.648,
+        0.952
+      ],
+      "angle": 0,
+      "content": "ISO Store order #: OP-38607/Downloaded: 2014-11-19"
+    },
+    {
+      "type": "footer",
+      "bbox": [
+        0.315,
+        0.953,
+        0.673,
+        0.963
+      ],
+      "angle": 0,
+      "content": "Single user licence only, copying and networking prohibited."
+    },
+    {
+      "type": "footer",
+      "bbox": [
+        0.114,
+        0.957,
+        0.313,
+        0.969
+      ],
+      "angle": 0,
+      "content": "ISO 2013 - All rights reserved"
+    },
+    {
+      "type": "page_number",
+      "bbox": [
+        0.915,
+        0.955,
+        0.94,
+        0.968
+      ],
+      "angle": 0,
+      "content": "23"
+    }
+  ],
+  [
+    {
+      "type": "header",
+      "bbox": [
+        0.059,
+        0.04,
+        0.24,
+        0.056
+      ],
+      "angle": 0,
+      "content": "ISO 14229-1:2013(E)"
+    },
+    {
+      "type": "table_caption",
+      "bbox": [
+        0.06,
+        0.098,
+        0.88,
+        0.126
+      ],
+      "angle": 0,
+      "content": "Table 5 \u2014 Functionally addressed request message with sub-function parameter and server response behaviour"
+    },
+    {
+      "type": "table",
+      "bbox": [
+        0.059,
+        0.13,
+        0.889,
+        0.668
+      ],
+      "angle": 0,
+      "content": "<table><tr><td rowspan=\"2\">Server case #</td><td colspan=\"2\">Client request message</td><td colspan=\"3\">Server capability</td><td colspan=\"2\">Server response</td><td rowspan=\"2\">Comments to server response</td></tr><tr><td>Address-ing scheme</td><td>sub-function (suppressPos RspMsg-IndicationBit)</td><td>SI supported</td><td>Sub-Function supported</td><td>Data parameter supported (only if applicable)</td><td>Message</td><td>NRC</td></tr><tr><td>a)</td><td rowspan=\"10\">functional</td><td rowspan=\"5\">FALSE (bit = 0)</td><td rowspan=\"3\">YES</td><td rowspan=\"3\">YES</td><td>At least 1</td><td>PosRsp</td><td>---</td><td>Server sends positive response</td></tr><tr><td>b)</td><td>At least 1</td><td>NegRsp</td><td>NRC=0xXX</td><td>Server sends negative response because error occurred reading the data-parameters of the request message</td></tr><tr><td>c)</td><td>None</td><td rowspan=\"3\">NoRsp</td><td>--</td><td>Server does NOT send a response</td></tr><tr><td>d)</td><td>NO</td><td>--</td><td>--</td><td>---</td><td>Server does NOT send a response</td></tr><tr><td>e)</td><td>YES</td><td>NO</td><td>--</td><td>---</td><td>Server does NOT send a response</td></tr><tr><td>f)</td><td rowspan=\"5\">TRUE (bit = 1)</td><td rowspan=\"3\">YES</td><td rowspan=\"3\">YES</td><td>At least 1</td><td>NoRsp</td><td>---</td><td>Server does NOT send a response</td></tr><tr><td>g)</td><td>At least 1</td><td>NegRsp</td><td>NRC=0xXX</td><td>Server sends negative response because error occurred reading the data-parameters of the request message</td></tr><tr><td>h)</td><td>None</td><td rowspan=\"3\">NoRsp</td><td>--</td><td>Server does NOT send a response</td></tr><tr><td>i)</td><td>NO</td><td>--</td><td>--</td><td>---</td><td>Server does NOT send a response</td></tr><tr><td>j)</td><td>YES</td><td>NO</td><td>--</td><td>---</td><td>Server does NOT send a response</td></tr></table>"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.057,
+        0.692,
+        0.856,
+        0.707
+      ],
+      "angle": 0,
+      "content": "Description of server response cases on functionally addressed client request messages with sub-function:"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.057,
+        0.72,
+        0.883,
+        0.749
+      ],
+      "angle": 0,
+      "content": "a) Server sends a positive response message because the service identifier and sub-function parameter is supported of the client's request with indication for a response message."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.057,
+        0.761,
+        0.885,
+        0.817
+      ],
+      "angle": 0,
+      "content": "b) Server sends a negative response message (e.g., IMLOIF: incorrectMessageLengthOrlIncorrectFormat) because the service identifier and sub-function parameter is supported of the client's request, but some other error appeared (e.g. wrong PDU length according to service identifier and sub-function parameter in the request message) during processing of the sub-function."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.058,
+        0.83,
+        0.884,
+        0.9
+      ],
+      "angle": 0,
+      "content": "c) Server sends no response message because the negative response code ROOR (requestOutOfRange, which is identified by the server because the service identifier and sub-function parameter are supported but a required data-parameter is not supported of the client's request) is always suppressed in case of a functionally addressed request message. The suppressPosRspMsgIndicationBit does not matter in such case."
+    },
+    {
+      "type": "list",
+      "bbox": [
+        0.057,
+        0.72,
+        0.885,
+        0.9
+      ],
+      "angle": 0,
+      "content": null
+    },
+    {
+      "type": "footer",
+      "bbox": [
+        0.313,
+        0.932,
+        0.674,
+        0.964
+      ],
+      "angle": 0,
+      "content": "Licensed to rpb@tinynet.org Licensee may download at: http://www.tinynet.com/2007/Downloaded: 2014-11-19 Single user licence, only copying, and networking prohibited."
+    },
+    {
+      "type": "footer",
+      "bbox": [
+        0.685,
+        0.957,
+        0.882,
+        0.97
+      ],
+      "angle": 0,
+      "content": "\u00a9 ISO 2013 - All rights reserved"
+    },
+    {
+      "type": "page_number",
+      "bbox": [
+        0.06,
+        0.955,
+        0.085,
+        0.969
+      ],
+      "angle": 0,
+      "content": "24"
+    }
+  ],
+  [
+    {
+      "type": "header",
+      "bbox": [
+        0.757,
+        0.04,
+        0.94,
+        0.055
+      ],
+      "angle": 0,
+      "content": "ISO 14229-1:2013(E)"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.114,
+        0.098,
+        0.942,
+        0.157
+      ],
+      "angle": 0,
+      "content": "d) Server sends no response message because the negative response codes SNS (serviceNotSupported) and SNSIAS (serviceNotSupportedInActiveSession), which are identified by the server because the service identifier is not supported of the client's request, are always suppressed in case of a functionally addressed request message. The suppressPosRspMsgIndicationBit does not matter in such case."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.114,
+        0.167,
+        0.945,
+        0.237
+      ],
+      "angle": 0,
+      "content": "e) Server sends no response message because the negative response codes SFNS (sub-functionNotSupported) and SFNSIAS (sub-functionNotSupportedInactiveSession), which are identified by the server because the service identifier is supported and the sub-function parameter is not supported for the data-parameters (if applicable) of the client's request, are always suppressed in case of a functionally addressed request. The suppressPosRspMsgIndicationBit does not matter in such case."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.113,
+        0.25,
+        0.941,
+        0.281
+      ],
+      "angle": 0,
+      "content": "f) Server sends no response message because the service identifier and sub-function parameter is supported of the client's request with indication for no response message."
+    },
+    {
+      "type": "list",
+      "bbox": [
+        0.113,
+        0.098,
+        0.945,
+        0.281
+      ],
+      "angle": 0,
+      "content": null
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.113,
+        0.292,
+        0.941,
+        0.321
+      ],
+      "angle": 0,
+      "content": "NOTE If a negative response code RCRRP (requestCorrectlyReceivedResponsePending) is used, a final response shall be given independent of the suppressPosRspMsgIndicationBit value."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.114,
+        0.333,
+        0.944,
+        0.377
+      ],
+      "angle": 0,
+      "content": "g) Same effect as in b) (i.e., a negative response message is sent) because the suppressPosRspMsgIndicationBit is ignored for any negative response. This is also true in case the request message is functionally addressed."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.114,
+        0.388,
+        0.945,
+        0.459
+      ],
+      "angle": 0,
+      "content": "h) Same effect as in c) (i.e., no response message is sent) because the negative response code ROOR (request\u6539\u9769\u53d1\u5c55Range, which is identified by the server because the service identifier and sub-function parameter are supported but a required data-parameter is not supported of the client's request) is always suppressed in case of a functionally addressed request message. The suppressPosRspMsgIndicationBit does not matter in such case."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.113,
+        0.47,
+        0.945,
+        0.541
+      ],
+      "angle": 0,
+      "content": "i) Same effect as in d) (i.e., no response message is sent) because the negative response codes SNS (serviceNotSupported) and SNSIAS (serviceNotSupportedInactiveSession), which are identified by the server because the service identifier is not supported of the client's request, are always suppressed in case of a functionally addressed request message. The suppressPosRspMsgIndicationBit does not matter in such case."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.112,
+        0.553,
+        0.945,
+        0.624
+      ],
+      "angle": 0,
+      "content": "j) Same effect as in e) (i.e., no response message is sent) because the negative response codes SFNS (sub-functionNotSupported) and SFSNISAS (sub-functionNotSupportedInactiveSession), which are identified by the server because the service identifier is supported and the sub-function parameter is not supported of the client's request, are always suppressed in case of a functionally addressed request message. The suppressPosRspMsgIndicationBit does not matter in such case."
+    },
+    {
+      "type": "list",
+      "bbox": [
+        0.112,
+        0.333,
+        0.945,
+        0.624
+      ],
+      "angle": 0,
+      "content": null
+    },
+    {
+      "type": "title",
+      "bbox": [
+        0.114,
+        0.635,
+        0.848,
+        0.65
+      ],
+      "angle": 0,
+      "content": "7.5.4 Request message without sub-function parameter and server response behaviour"
+    },
+    {
+      "type": "title",
+      "bbox": [
+        0.114,
+        0.664,
+        0.922,
+        0.68
+      ],
+      "angle": 0,
+      "content": "7.5.4.1 General server response behaviour for request messages without sub-function parameter"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.113,
+        0.692,
+        0.941,
+        0.734
+      ],
+      "angle": 0,
+      "content": "There is no general server response behaviour available for request messages without sub-function parameter. A request message in the context of this section is defined as a service request message adhering to the formatting requirements defined in this part of ISO 14229."
+    },
+    {
+      "type": "title",
+      "bbox": [
+        0.114,
+        0.747,
+        0.567,
+        0.763
+      ],
+      "angle": 0,
+      "content": "7.5.4.2 Physically addressed client request message"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.113,
+        0.775,
+        0.941,
+        0.817
+      ],
+      "angle": 0,
+      "content": "The server response behaviour specified in this subclause is referenced in the service description of each service, which does not support a sub-function parameter but a data-parameter in the physically addressed request message received from the client."
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.114,
+        0.829,
+        0.675,
+        0.845
+      ],
+      "angle": 0,
+      "content": "Table 6 shows possible communication schemes with physical addressing."
+    },
+    {
+      "type": "footer",
+      "bbox": [
+        0.314,
+        0.932,
+        0.674,
+        0.964
+      ],
+      "angle": 0,
+      "content": "Licensed to rbb@tinet.org  \nReceived 2014-07-20  \nReceived 2014-11-19  \nSingle user license only, copying and networking prohibited."
+    },
+    {
+      "type": "footer",
+      "bbox": [
+        0.114,
+        0.957,
+        0.313,
+        0.969
+      ],
+      "angle": 0,
+      "content": "ISO 2013 - All rights reserved"
+    },
+    {
+      "type": "page_number",
+      "bbox": [
+        0.915,
+        0.955,
+        0.94,
+        0.968
+      ],
+      "angle": 0,
+      "content": "25"
+    }
+  ]
+]
