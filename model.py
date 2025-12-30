@@ -42,14 +42,16 @@ from huggingface_hub import snapshot_download
 # ---------------------------------------------------------
 ssl._create_default_https_context = ssl._create_unverified_context
 os.environ["HF_HUB_DISABLE_SSL_VERIFICATION"] = "1"
+os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = "1"
+
 
 print("⚠️ SSL verification DISABLED (no custom cert available)")
 print("🚀 Starting model download...")
 
 try:
     snapshot_download(
-        repo_id="BAAI/bge-large-en",
-        local_dir="./bge-large-en",
+        repo_id="BAAI/bge-reranker-v2-m3",
+        local_dir="./bge-reranker-v2-m3",
         local_dir_use_symlinks=False,
         resume_download=True,
         max_workers=1  # IMPORTANT for corporate networks
