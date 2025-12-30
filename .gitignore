@@ -11,6 +11,9 @@ all-MiniLM-L6-v2/
 all-mpnet-base-v2/
 bge-large-en/
 chroma_iso14229/
+FlagEmbedding/
+bge-ranker-v2-m3/
+venv/
 
 
 # Python cache
@@ -19,4 +22,6 @@ __pycache__/
 
 # OS
 .DS_Store
-Thumbs.db
+Thumbs.db*.safetensors 
+*.bin 
+*.pt 
